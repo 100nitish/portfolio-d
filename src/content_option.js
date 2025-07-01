@@ -1,48 +1,44 @@
-const logotext = "JOHN";
+const logotext = "NITISH";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Niths Maurya",
+    description: "I’m Nitish Maurya Software Engineer _ Full stack devloper,currently working in Chandigarh",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Nitish Maurya",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I develop React Apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I am a passionate and dedicated web developer specializing in creating dynamic and user-friendly web applications. With a strong foundation in front-end technologies, I enjoy bringing ideas to life through clean and efficient code. I am always eager to learn new technologies and improve my skills to deliver exceptional digital experiences.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "I'm a passionate web developer with a strong focus on creating engaging and functional digital experiences. I enjoy bringing ideas to life through clean code and innovative solutions. My journey in web development has equipped me with a versatile skill set, allowing me to tackle various challenges and continuously learn new technologies.", // Replaced placeholder text with a more descriptive and professional "about me" section.
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Jr. Software Engineer",
+        where: "Graycell Technologies",
+        date: "2024-2025",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Web Developer Trainee",
+        where: "PG-Tech Pvt.Ltd",
+        date: "2023-2024",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+
 ];
 
 const skills = [{
-        name: "Python",
+        name: "HTML",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "CSS",
+        value: 90,
     },
     {
         name: "Javascript",
@@ -50,25 +46,61 @@ const skills = [{
     },
     {
         name: "React",
-        value: 60,
+        value: 80,
     },
     {
         name: "Jquery",
+        value: 60,
+    },
+    {
+        name: "Tailwind Css",
+        value: 65,
+    },
+    {
+        name: "Node.js",
+        value: 60,
+    },
+    {
+        name: "Express.js",
+        value: 70,
+    },
+    {
+        name: "MongoDB",
+        value: 65,
+    },
+    {
+        name: "Canva",
+        value: 80,
+    },
+    {
+        name: "Git/GitHub",
+        value: 70,
+    },
+    {
+        name: "Wordpress",
+        value: 90,
+    },
+    {
+        name: "Figma",
+        value: 80,
+    },
+    {
+        name: "Photoshop",
         value: 85,
     },
 ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "I craft intuitive and engaging user interfaces (UI) and user experiences (UX) that are not only aesthetically pleasing but also highly functional and user-centric.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Frontend Web Applications",
+        description: "I build responsive and dynamic frontend web applications using modern frameworks and libraries, ensuring a seamless and interactive experience for users.",
     },
     {
         title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "I develop custom WordPress themes and plugins, providing robust and flexible content management solutions tailored to specific business needs.",
     },
 ];
 
@@ -92,64 +124,24 @@ const dataportfolio = [{
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_EMAIL: "nitish4621@gmail.com",
+    YOUR_FONE: "+91-8872143592",
+    description: "Feel free to reach out to me! Whether you have a project in mind, a question, or just want to connect, I'd love to hear from you. You can contact me via email or phone, and I'll get back to you as soon as possible.",
+    // Create an emailjs.com account to get your service ID, template ID, and user ID.
+    // Check out this tutorial: https://www.emailjs.com/docs/examples/reactjs/
+    YOUR_SERVICE_ID: "service_id", // Replace with your EmailJS Service ID
+    YOUR_TEMPLATE_ID: "template_id", // Replace with your EmailJS Template ID
+    YOUR_USER_ID: "user_id", // Replace with your EmailJS User ID (Public Key)
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/100nitish",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/nitish-kumar-maurya-ba5077209",
     twitter: "https://twitter.com",
 };
 export {
